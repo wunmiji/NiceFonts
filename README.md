@@ -1,5 +1,5 @@
 # NiceFonts
-Project is done completely in 2019
+Project was done completely in 2019
 
 
 
