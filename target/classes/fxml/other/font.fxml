@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" prefHeight="562.0" prefWidth="992.0" xmlns="http://javafx.com/javafx/8.0.172-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nicefonts.ui.other.FontController">
+   <AnchorPane layoutX="83.0" layoutY="31.0" styleClass="font-root-pane" stylesheets="@../../css/fonts.css"
+               AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0"
+               AnchorPane.topAnchor="30.0">
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="40.0" AnchorPane.leftAnchor="0.0"
+                  AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <HBox fx:id="familyHBox" alignment="CENTER" spacing="5.0" AnchorPane.bottomAnchor="0.0"
+               AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="410.0" AnchorPane.topAnchor="0.0">
+            <Label fx:id="familyLabel" prefHeight="40.0" styleClass="font-family" text="Label">
+               <font>
+                  <Font size="20.0"/>
+               </font>
+            </Label>
+            <StackPane fx:id="alertStackPane" prefHeight="40.0" HBox.hgrow="ALWAYS"/>
+         </HBox>
+         <HBox layoutX="578.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+            <Button mnemonicParsing="false" onAction="#handleCharactersOnAction" prefHeight="30.0"
+                    text="Characters">
+               <styleClass>
+                  <String fx:value="transparent-button"/>
+                  <String fx:value="nav-button"/>
+               </styleClass>
+            </Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleTestDriveOnAction"
+                    prefHeight="30.0" text="Test Drive">
+               <styleClass>
+                  <String fx:value="transparent-button"/>
+                  <String fx:value="nav-button"/>
+               </styleClass>
+            </Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleBackgroundOnAction"
+                    prefHeight="30.0" text="Quote">
+               <styleClass>
+                  <String fx:value="transparent-button"/>
+                  <String fx:value="nav-button"/>
+               </styleClass>
+            </Button>
+            <Button contentDisplay="GRAPHIC_ONLY" minWidth="-Infinity" mnemonicParsing="false"
+                    onAction="#handleBackOnAction" prefHeight="30.0" prefWidth="30.0">
+               <graphic>
+                  <SVGPath
+                          content="M 4.9902344 3.9902344 A 1.0001 1.0001 0 0 0 4.2929688 5.7070312 L 10.585938 12 L 4.2929688 18.292969 A 1.0001 1.0001 0 1 0 5.7070312 19.707031 L 12 13.414062 L 18.292969 19.707031 A 1.0001 1.0001 0 1 0 19.707031 18.292969 L 13.414062 12 L 19.707031 5.7070312 A 1.0001 1.0001 0 0 0 18.980469 3.9902344 A 1.0001 1.0001 0 0 0 18.292969 4.2929688 L 12 10.585938 L 5.7070312 4.2929688 A 1.0001 1.0001 0 0 0 4.9902344 3.9902344 z"
+                          fill="#243665" scaleX="0.8" scaleY="0.8"/>
+               </graphic>
+               <styleClass>
+                  <String fx:value="transparent-button"/>
+                  <String fx:value="font-cancel-button"/>
+               </styleClass>
+            </Button>
+         </HBox>
+      </AnchorPane>
+      <AnchorPane fx:id="menuPane" layoutY="40.0" prefHeight="550.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0"
+                  AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="40.0"/>
+   </AnchorPane>
+</AnchorPane>

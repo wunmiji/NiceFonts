@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="500.0" prefWidth="900.0"
+            stylesheets="@../../css/specification.css" xmlns="http://javafx.com/javafx/8.0.172-ea">
+    <Label layoutX="70.0" layoutY="91.0" prefHeight="51.0" styleClass="story-label" text="Get all your Installed fonts">
+        <font>
+          <Font size="35.0"/>
+        </font>
+    </Label>
+    <VBox layoutX="70.0" layoutY="150.0">
+        <CheckBox mnemonicParsing="false" prefHeight="35.0" selected="true" styleClass="story-label"
+                  text="System fonts">
+            <font>
+                <Font size="20.0"/>
+            </font>
+        </CheckBox>
+        <CheckBox layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="35.0" selected="true"
+                  styleClass="story-label" text="Favourite fonts">
+            <font>
+                <Font size="20.0"/>
+            </font>
+        </CheckBox>
+        <CheckBox layoutX="10.0" layoutY="170.0" mnemonicParsing="false" prefHeight="35.0" selected="true"
+                  styleClass="story-label" text="Search for fonts">
+            <font>
+                <Font size="20.0"/>
+            </font>
+        </CheckBox>
+        <CheckBox layoutX="10.0" layoutY="50.0" mnemonicParsing="false" prefHeight="35.0" selected="true"
+                  styleClass="story-label" text="Style fonts">
+            <font>
+                <Font size="20.0"/>
+            </font>
+        </CheckBox>
+        <CheckBox layoutX="10.0" layoutY="90.0" mnemonicParsing="false" prefHeight="35.0" selected="true"
+                  styleClass="story-label" text="View characters of a font">
+            <font>
+                <Font size="20.0"/>
+            </font>
+        </CheckBox>
+        <Label prefHeight="35.0" styleClass="story-label" text="and many more .">
+            <font>
+                <Font size="20.0"/>
+            </font>
+        </Label>
+    </VBox>
+</AnchorPane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="480.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nicefonts.ui.fonts.CharactersController">
+   <children>
+      <ScrollPane fitToWidth="true" prefWidth="922.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <VBox alignment="CENTER_LEFT">
+               <children>
+                  <Label styleClass="character-title" text="UPPERCASE ALPHABET   (A  -  Z)">
+                     <padding>
+                        <Insets bottom="12.0" top="12.0" />
+                     </padding>
+                  </Label>
+                  <FlowPane fx:id="upperCaseFlowPane" columnHalignment="CENTER" hgap="5.0" prefWrapLength="200.0" vgap="5.0" />
+                  <Label styleClass="character-title" text="LOWERCASE ALPHABET   (a  -  z)">
+                     <padding>
+                        <Insets bottom="12.0" top="12.0" />
+                     </padding>
+                  </Label>
+                  <FlowPane fx:id="lowerCaseFlowPane" columnHalignment="CENTER" hgap="5.0" vgap="5.0" />
+                  <Label styleClass="character-title" text="NUMBERS  (0  -  9)">
+                     <padding>
+                        <Insets bottom="12.0" top="12.0" />
+                     </padding>
+                  </Label>
+                  <FlowPane fx:id="numbersFlowPane" columnHalignment="CENTER" hgap="5.0" layoutX="20.0" layoutY="90.0" vgap="5.0" />
+                  <Label styleClass="character-title" text="POPULAR SYMBOLS">
+                     <padding>
+                        <Insets bottom="12.0" top="12.0" />
+                     </padding>
+                  </Label>
+                  <FlowPane fx:id="symbolFlowPane" columnHalignment="CENTER" hgap="5.0" layoutX="20.0" layoutY="125.0" vgap="5.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" />
+               </padding>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

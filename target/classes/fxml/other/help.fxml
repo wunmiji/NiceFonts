@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.SVGPath?>
+
+<AnchorPane fx:id="rootPane" prefHeight="562.0" prefWidth="992.0" xmlns="http://javafx.com/javafx/8.0.172-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nicefonts.ui.other.HelpController">
+    <AnchorPane layoutX="271.0" layoutY="106.0" prefHeight="350.0" prefWidth="450.0" styleClass="help-root-pane"
+                stylesheets="@../../css/help.css" AnchorPane.bottomAnchor="106.0" AnchorPane.leftAnchor="271.0"
+                AnchorPane.rightAnchor="271.0" AnchorPane.topAnchor="106.0">
+        <AnchorPane id="AnchorPane" prefHeight="350.0" prefWidth="450.0" AnchorPane.bottomAnchor="0.0"
+                    AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <Label alignment="CENTER" layoutX="10.0" layoutY="69.0" prefHeight="19.0" prefWidth="151.0"
+                   styleClass="nice-font-label" text="N I C E F O N T S" AnchorPane.leftAnchor="0.0"
+                   AnchorPane.rightAnchor="0.0"/>
+            <Label alignment="CENTER" layoutY="115.0" prefHeight="19.0" prefWidth="151.0" styleClass="version"
+                   text="v 1 . 0 . 0 . 0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"/>
+            <Label alignment="CENTER" layoutX="181.0" layoutY="266.0" styleClass="OreOluwaPo"
+                   text="O R E O L U W A P O    I N C." AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"/>
+        </AnchorPane>
+        <AnchorPane layoutX="422.0" prefHeight="30.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                    AnchorPane.topAnchor="0.0">
+            <Label styleClass="nav-label" text="About" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0"
+                   AnchorPane.topAnchor="0.0"/>
+            <Button contentDisplay="GRAPHIC_ONLY" focusTraversable="false" minWidth="-Infinity"
+                    mnemonicParsing="false" onAction="#handleCancelButtonOnAction" prefWidth="30.0"
+                    AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                <graphic>
+                    <SVGPath
+                            content="M 4.9902344 3.9902344 A 1.0001 1.0001 0 0 0 4.2929688 5.7070312 L 10.585938 12 L 4.2929688 18.292969 A 1.0001 1.0001 0 1 0 5.7070312 19.707031 L 12 13.414062 L 18.292969 19.707031 A 1.0001 1.0001 0 1 0 19.707031 18.292969 L 13.414062 12 L 19.707031 5.7070312 A 1.0001 1.0001 0 0 0 18.980469 3.9902344 A 1.0001 1.0001 0 0 0 18.292969 4.2929688 L 12 10.585938 L 5.7070312 4.2929688 A 1.0001 1.0001 0 0 0 4.9902344 3.9902344 z"
+                            fill="#243665" scaleX="0.7" scaleY="0.7"/>
+                </graphic>
+                <styleClass>
+                    <String fx:value="transparent-button"/>
+                    <String fx:value="cancel"/>
+                </styleClass>
+            </Button>
+        </AnchorPane>
+    </AnchorPane>
+</AnchorPane>

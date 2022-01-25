@@ -1,0 +1,19 @@
+.story-label {
+    -fx-text-fill: -fx-white;
+}
+
+.checked {
+    -fx-text-fill: -fx-white;
+}
+
+.check-box .box {
+    -fx-background-color: transparent;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: -fx-secondary;
+}
+
+.check-box:selected .box {
+    -fx-background-color: transparent;
+}

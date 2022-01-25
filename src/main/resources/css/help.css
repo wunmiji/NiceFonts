@@ -1,0 +1,27 @@
+.nav-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: -fx-primary;
+}
+
+.nav-label:hover {
+    -fx-text-fill: #39559F;
+}
+
+.nice-font-label {
+    -fx-font-size: 35px;
+    -fx-text-fill: -fx-primary;
+}
+
+.version {
+    -fx-font-size: 12px;
+    -fx-text-fill: -fx-primary;
+}
+
+.OreOluwaPo {
+    -fx-font-size: 14px;
+    -fx-text-fill: -fx-primary;
+}
+
+.cancel:hover SVGPath {
+    -fx-fill: #39559F;
+}
