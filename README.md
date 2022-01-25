@@ -1,5 +1,6 @@
 # NiceFonts
-Project was done completely in 2019
+A font reader app.
+This JavaFx Project was done completely in 2019.
 
 
 
